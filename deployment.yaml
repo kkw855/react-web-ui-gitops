@@ -17,7 +17,7 @@ spec:
         - name: ghcr-secret
       containers:
         - name: react-web-ui
-          image: ghcr.io/kkw855/react-web-ui:eb087544135db02bad680966a11aea967163e19d
+          image: ghcr.io/kkw855/react-web-ui:2db5d8a96229318a8739bf6878e1aebb374ca06b
           ports:
             - containerPort: 80
           resources:
